@@ -14,7 +14,7 @@
 "//".*        { }
 array           { return ARRAY; }
 boolean         { return BOOLEAN; }
-char            { return KEY_CHAR; }
+char            { return TOKEN_CHAR; }
 else            { return ELSE; }
 false           { return FALSE; }
 for             { return FOR; }
